@@ -78,12 +78,16 @@
 	height: 100px;
 	width: 100px;
     border: 2px solid black;
-	background-image: url(assets/img/ab2.jpg);
+	background-color: #eaa023;
 	position: absolute;
 	left: calc(46% - 8px);
 	border-radius: 50%;
 	top:10px;
 }
+.timeline-dot img{
+    border-radius: 50%;
+}
+
 
 .timeline-date{
 	font-size: 18px;
@@ -91,7 +95,7 @@
 	margin:6px 0 15px;
 }
 .timeline-content{
-    /* background-color: #2f363e; */
+     /* background-color: #2f363e;  */
 	padding: 30px;
 	border-radius: 5px;
 }
@@ -122,11 +126,7 @@
 	.timeline-item:nth-child(even){
 		padding-left: 37px;
 	}
-	.timeline-dot{
-		left: -20px;
-        width: 60px;
-        height: 60px;
-	}
+	
     
 }
 
@@ -182,6 +182,3 @@ input{
 .placeholder{
     color: brown;
 }
-
-
- 
